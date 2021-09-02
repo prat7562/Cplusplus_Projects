@@ -24,7 +24,7 @@ Our application takes all the information of the students from a CSV file and us
 ## Low Level Requirements:
 |ID No|Description|HLR ID No|Category| Status(Implemented/Future)|
 |-----|-----------|---------|---------|-------------------------|
-|LLR01|Display student details- PS number, Email-ID, name in the score card.|HLR01|Technical|Implemented|
+|LLR01|Display Employee details- PS number, Email-ID, name in the score card.|HLR01|Technical|Implemented|
 |LLR02|Display the course details – course ID, course name, score of each module in the score card.|HLR01|Technical|Implemented|
 |LLR03|To calculate average score of all modules and display if student has met eligibility criteria or not and display actual cut-off score.|HLR03|Technical|Implemented|
 |LLR04|The system must be able to sort the students list based on the average GENESIS performance. |HLR04|Technical|Implemented|
