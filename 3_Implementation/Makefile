@@ -15,6 +15,7 @@ src/readcsv.cc\
 src/sort.cc\
 
 TEST=test/test.cc\
+unity/unity.c\
 # All test source files
 
 
