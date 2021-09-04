@@ -55,7 +55,7 @@ test:
 cppcheck:
 	cppcheck --enable=all $(SRC) main.cc
 debug:
-	gcc -I $(INC_H) $(SRC) main.cc -g -o $(PROJ_NAME).$(EXEC) -lm
+	g++ -I $(INC_H) $(SRC) main.cc -g -o $(PROJ_NAME).$(EXEC) -lm
 	gdb $(PROJ_NAME).$(EXEC)
 
 valgrind:
