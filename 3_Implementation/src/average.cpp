@@ -1,4 +1,6 @@
-#include "average.h"
+
+#include "score.h"
+#include<vector>
 int Student::avg_sum()
 {
     int avg=0;
