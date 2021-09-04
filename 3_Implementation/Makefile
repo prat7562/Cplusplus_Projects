@@ -14,7 +14,7 @@ src/modulestatus.cc\
 src/readcsv.cc\
 src/sort.cc\
 
-TEST=test/test_eligible.cc
+TEST=test/test.cc\
 # All test source files
 
 
