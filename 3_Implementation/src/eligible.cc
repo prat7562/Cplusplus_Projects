@@ -2,7 +2,9 @@
 #include"score.h"
 #include<vector>
 #include<algorithm>
+#include<string.h>
 
+using namespace std;
 
 bool Student:: check_eligibility()
 {
