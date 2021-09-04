@@ -1,4 +1,15 @@
-#include "average.h"
+
+#include "score.h"
+#include<vector>
+#include<iostream>
+#include<vector>
+#include<fstream>
+#include<string.h>
+#include<sstream>
+#include <time.h>
+#include<chrono>
+#include<algorithm>
+#include<map>
 
 void Student:: display()
 {
@@ -16,9 +27,3 @@ void Student:: display()
     }
 }
 
-std::ostream& operator<<(ostream & rc,Student& m_c)
-{
-     
-  rc<<m_c.id<<"---"<<m_c.t_name<<"---"<<m_c.m1_name<<"---"<<m_c.score_m1<<"---"<<m_c.m2_name<<"---"<<m_c.score_m2<<"---"<<m_c.m3_name<<"---"<<m_c.score_m3<<"---"<<m_c.average<<"---"<<m_c.eligible;
-  return rc;
-}
