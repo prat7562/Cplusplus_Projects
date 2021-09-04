@@ -2,7 +2,7 @@
 #include"score.h"
 #include<vector>
 #include<algorithm>
-bool student::operator<(Student &myref)
+bool Student::operator<(Student &myref)
 {
     if(this->average>myref.average)
     {
