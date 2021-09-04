@@ -40,4 +40,7 @@ bool check_eligibility();
 void display();
 };
 void add_eligibility(std::vector<Student>&);
+int get_n_r();
+void ini_student(vector<Student>&mystudent);
+void print_top_ten(vector<Student>&myref);
 #endif
