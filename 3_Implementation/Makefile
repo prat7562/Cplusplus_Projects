@@ -1,9 +1,30 @@
-PROJ_NAME = Genesis
-SRC = # need to add 
 
-#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
+PROJ_NAME =genesis_score
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
+
+
+
+# All source code files
+SRC =src/average.cc\
+src/display.cc\
+src/eligible.cc\
+src/findps.cc\
+src/modulestatus.cc\
+src/readcsv.cc\
+src/sort.cc\
+
+TEST=test/test_eligible.cc
+# All test source files
+
+
+COV_SRC = main.cc
+
+INC_H = inc
+
+
 ifdef OS
-   RM = del /q
+   RM = del 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -13,12 +34,37 @@ else
 	  EXEC = out
    endif
 endif
+.PHONY: run clean test doc all
 
 all:
-	g++ $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lgtest -lgtest_main -lpthread
-
-run: all
+	g++ -I $(INC_H) $(SRC) main.cc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+	
+run:
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+test:
+	g++ $(TEST) $(SRC) -I $(INC_H) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lgtest -lgtest_main -lpthread
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+
+	
+	
+	
+
+
+cppcheck:
+	cppcheck --enable=all $(SRC) main.cc
+debug:
+	gcc -I $(INC_H) $(SRC) main.cc -g -o $(PROJ_NAME).$(EXEC) -lm
+	gdb $(PROJ_NAME).$(EXEC)
+
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+
+
 clean:
-	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+	$(RM) *.DAT
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
