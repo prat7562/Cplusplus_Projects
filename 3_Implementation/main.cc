@@ -21,8 +21,8 @@ add_eligibility(my_vect);
 average(my_vect);
 string choice;
 
-while(true)
-{ cout<<endl;
+re_enter:
+ cout<<endl;
 cout<<endl;
     cout<<"Enter 1 to know about the overall performance of the student";
 cout<<endl;
@@ -58,6 +58,6 @@ else if(choice=="4")
 else{
     cout<<"Invalid Try again";
 }
-}
+goto re_enter;
 return 0;
 }
