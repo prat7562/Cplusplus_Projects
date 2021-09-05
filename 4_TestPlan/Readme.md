@@ -9,5 +9,5 @@
 |-------------|----------------------------------------------------------------|-------------------------------------------|------------------|------------|------------------|
 | LL-01 |to check the candidates who have passed | Average Marks | Boolean value | Pass |Scenario Based |
 | LL-02 |to check the candidate who have failed | Average Marks | Boolean value|Pass|Scenario Based |
-| LL-02 |To pass the |Marks of individual module | Average value | Pass |Scenario Based |
+| LL-02 |To check the average |Marks of individual module | Average value | Pass |Scenario Based |
  
