@@ -19,6 +19,23 @@ Our application takes all the information of the students and store in CSV file 
 | `2_Design`       |  Documents containing design details and UML diagrams.               |
 | `3_Implementation `     |         Codes and documentation.                    |
 | `4_Test Plan` | Documents detailing test plan and procedures. |
+# Feature List
+| Feature ID | Feature | Status |
+|------------|---------|--------|
+|    F_01    |Reading from csv files                                           |IMPLEMENTED|
+|    F_02    |Calculates the average marks                                     |IMPLEMENTED| 
+|    F_03    |Sorts according to the average marks                             |IMPLEMENTED| 
+|    F_04    |Checks the Eligibility in each module                            |IMPLEMENTED| 
+|    F_05    |Checks the overall eligibility                                   |IMPLEMENTED|
+|    F_06    |Checking students performance using their ps number              |IMPLEMENTED|
+#  Individual Contribution
+PS Id. |  Name   |    Features    | Issues Raised | Issues Resolved | No. of Test Cases |Test Cases Passed|
+|-------|---------|----------------|----------------|---------------|-------------|--------------|
+|`99005843`|Manojna|                |              |                |             |              |
+|`99005802`|Varun MS|               |               |               |             |             |
+|`99005783`|Badam Sai Venkata Tarung|       |        |               |             |             |
+|`99005832`|Sai Madhuri G|                          |               |             |            |
+|`99005784`|Rahul S Iyer|                          |                |             |            |
 
 # Challenges Faced and How was it Overcome
 | No. | Challange | Solution |
