@@ -8,8 +8,6 @@
 | **Test ID** | **Description**                                                | **Exp I/P**                               | **Exp O/P** | **Status** | **Type of test** |
 |-------------|----------------------------------------------------------------|-------------------------------------------|------------------|------------|------------------|
 | LL-01 |to check the candidates who have passed | Average Marks | Boolean value | Pass |Scenario Based |
-
 | LL-02 |to check the candidate who have failed | Average Marks | Boolean value|Pass|Scenario Based |
-
 | LL-02 |To pass the |Marks of individual module | Average value | Pass |Scenario Based |
  
