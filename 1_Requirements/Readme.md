@@ -13,6 +13,22 @@ Our application takes all the information of the students from a CSV file and us
 * Wages for Developer who updates application.
 ## Features
 * Our application gives overall candidates course results and eligible status.
+## 4W and 1H
+## Who : 
+This application is used by any organisation to calculate the marks and eligiblity of their students/interns in various modules.
+
+## What : 
+The main Objectives of the project is to calculate the average marks obtained from various modules attended by the students/interns and thereby calculate the grades and eligibility of the candidate to attend GENESIS.
+        
+## Where : 
+In any organisation that is trying to track the progress of their interns/trainees in various modules attended by them.
+## When :
+
+This system can be used whenever any organisation or faculty wants to track the progress of their trainees/interns in any modules.
+
+## How:
+It is an application that gets all the data of the trainees/interns, about their modules their marks in each module, their id and others personel details, and calculates the average of all the modules attended and checks their eligibilty for their next programme ie; GENESIS
+
 ## High Level Requirements:
 |ID No|Requirement|Category| Status(Implemented/Future)|
 |-----|-----------|--------|--------------------------|
