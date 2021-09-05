@@ -49,7 +49,7 @@ test:
 
 coverage:
 	
-	g++ -fprofile-arcs -ftest-coverage  $(SRC)-I $(INC_H) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	g++ -fprofile-arcs -ftest-coverage  main.cc $(SRC)-I $(INC_H) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
