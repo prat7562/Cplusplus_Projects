@@ -4,8 +4,8 @@
 
 |Build |Code Quality static|Code Quality dynamic| Unity |[Git Inspector]| Codacy| Code Coverage |
 |------|-------------------|--------------------|-------|---------------|-------|---------------|
-|![C/C++ CI - Build Status]([![Build Status](https://github.com/Rahul-S-Iyer/Cplusplus_Projects/actions/workflows/build.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Cplusplus_Projects/actions/workflows/build.yml))|![Code Quality - Static Code - Cppcheck]()|![CodeQuality Dynamic Code Analysis Valgrind]()|![Unit Testing - Unity]()|![Contribution Check - Git Inspector]()|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8fb429a8f2244fb580df1d0b049a83ec)](https://www.codacy.com/gh/Rahul-S-Iyer/Cplusplus_Projects/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rahul-S-Iyer/Cplusplus_Projects&amp;utm_campaign=Badge_Grade)|![CI-Coverage]()|
- c3f33874270b4a63c3c7863cdd2e8f76754d2c54
+|[![C/C++ CI - Build Status](https://github.com/Rahul-S-Iyer/Cplusplus_Projects/actions/workflows/build.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Cplusplus_Projects/actions/workflows/build.yml)|![Code Quality - Static Code - Cppcheck]()|![CodeQuality Dynamic Code Analysis Valgrind]()|![Unit Testing - Unity]()|![Contribution Check - Git Inspector]()|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8fb429a8f2244fb580df1d0b049a83ec)](https://www.codacy.com/gh/Rahul-S-Iyer/Cplusplus_Projects/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Rahul-S-Iyer/Cplusplus_Projects&amp;utm_campaign=Badge_Grade)|![CI-Coverage]()|
+ 
 
 
 # Introduction
