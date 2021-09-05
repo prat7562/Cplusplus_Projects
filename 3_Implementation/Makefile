@@ -48,8 +48,8 @@ test:
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 coverage:test
-	cp test/test.cc .
-	g++ -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T)   test/test.cc $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	
+	g++ -fprofile-arcs -ftest-coverage main.cc -I $(INC_H)  $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
