@@ -15,10 +15,10 @@ Our application takes all the information of the students and store in CSV file 
 # Folder Structure
 | Folder | Description                 |
 |--------|-----------------------------|
-| `1_Requirements`  |  Documents detailing requirements and research      |
-| `2_Design`       |  Documents containing design details and UML diagrams                |
-| `3_Implementation `     |         Codes and documentation                    |
-| `4_Test Plan` | Documents detailing test plan and procedures |
+| `1_Requirements`  |  Documents detailing requirements and research.     |
+| `2_Design`       |  Documents containing design details and UML diagrams.               |
+| `3_Implementation `     |         Codes and documentation.                    |
+| `4_Test Plan` | Documents detailing test plan and procedures. |
 
 # Challenges Faced and How was it Overcome
 | No. | Challange | Solution |
