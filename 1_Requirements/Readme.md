@@ -5,7 +5,7 @@ Lot of organisations find it difficult to keep track of their students/interns w
 Our application uses various concepts of C++ programming language like Object oriented programming and various standard template libraries like vectors, list, maps, set etc.
 Using most of these concepts we try to create a scorecard of the candidates of STEPIN and check whether they are eligible for GENESIS or not. All the data about the candidates are put in a CSV file and from this file we take the data and do various operations and give the result.
 ## Defining our system:
-Our application takes all the information of the students from a CSV file and using these data we do various operations to find the average score and grades of the students and check whether he/she is eligible for GENESIS or not. We use concepts like OOPS and STL to do the operations .
+Our application takes all the information of the students from a CSV file and using these data we do various operations to find the average score and grades of the students and check whether he/she is eligible or not. We use concepts like OOPS and STL to do the operations.
 ## State of Art
 ### Cost
 * Production cost depends upon total opreation period of development.
