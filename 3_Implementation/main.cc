@@ -9,10 +9,9 @@
 #include<map>
 #include"score.h"
 using namespace std;
-
-int main()
+void check()
 {
-    cout<<"|---Welcome to genesis score card---|";
+     cout<<"|---Welcome to genesis score card---|";
     cout<<endl;
 
 vector<Student> my_vect;
@@ -20,7 +19,6 @@ ini_student(my_vect);
 add_eligibility(my_vect);
 average(my_vect);
 string choice;
-
 
  cout<<endl;
 cout<<endl;
@@ -36,11 +34,13 @@ if(choice=="1")
 {
 print(my_vect);
 cout<<endl;
+check();
 }
 else if(choice=="2")
 {
 sort(my_vect.begin(),my_vect.end());
 print_top_ten(my_vect);
+check();
 }
 else if(choice=="3")
 {
@@ -50,15 +50,34 @@ cout<<"Enter PS number to know about their results"<<endl;
 long ps_number;
 cin>>ps_number;
 find_ps(ps_number,my_map);
+check();
 }
 else if(choice=="4")
 {
     exit(EXIT_SUCCESS);
 }
 else{
-    cout<<"Invalid Try again"<<endl;
-    
+    cout<<"Invalid Try again";
+    check();
 }
+}
+int main()
+{
+   string str;
+  
+   cout<<"Enter 1 to Explore options";
+   cout<<endl;
+   cout<<"Enter any other number to terminate the program";
+   cout<<endl;
+    cin>>str;
+    if(str=="1")
+    {
+        check();
+    }
+    else
+    {
+        exit(EXIT_SUCCESS);
+    }
 
 return 0;
 }
