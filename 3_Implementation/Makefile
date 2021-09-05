@@ -22,7 +22,7 @@ TEST=test/test.cc\
 COV_SRC = main.cc
 
 INC_H = inc
-
+INC_T= gtest
 
 ifdef OS
    RM = del 
@@ -49,7 +49,7 @@ test:
 
 coverage:
 	
-	g++ -fprofile-arcs -ftest-coverage main.cc $(TEST) $(SRC)-I $(INC_H) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	g++ -fprofile-arcs -ftest-coverage main.cc $(TEST) $(SRC)-I $(INC_H) -I $(INC_T) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
