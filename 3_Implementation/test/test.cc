@@ -10,7 +10,7 @@
 #include<map>
 */
 #include"score.h"
-#include<gtest/gtest.h>
+#include"gtest/gtest.h"
 using namespace std;
 
 //TEST CASES FOR ELIGIBILITY
