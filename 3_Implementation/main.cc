@@ -28,7 +28,8 @@ cout<<"Enter 2 to know about the top ten participants";
 cout<<endl;
 cout<<"Enter 3 to find student based on their ps number and their eligibility"<<endl;
 cout<<endl;
-cout<<"enter 4 to exit"<<endl;
+cout<<"Enter 4 to know about performance on each module"<<endl;
+cout<<"Enter 5 to exit"<<endl;
 cin>>choice;
 if(choice=="1")
 {
@@ -40,6 +41,7 @@ else if(choice=="2")
 {
 sort(my_vect.begin(),my_vect.end());
 print_top_ten(my_vect);
+cout<<endl;
 check();
 }
 else if(choice=="3")
@@ -50,9 +52,17 @@ cout<<"Enter PS number to know about their results"<<endl;
 long ps_number;
 cin>>ps_number;
 find_ps(ps_number,my_map);
+cout<<endl;
 check();
 }
 else if(choice=="4")
+{
+print_module_status(my_vect);
+cout<<endl;
+check();
+
+}
+else if(choice=="5")
 {
     exit(EXIT_SUCCESS);
 }
