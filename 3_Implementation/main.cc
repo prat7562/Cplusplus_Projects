@@ -11,7 +11,7 @@
 using namespace std;
 void check()
 {
-     cout<<"|---Welcome to genesis score card---|";
+     cout<<"\n \n"<<"|---Welcome to genesis score card---|";
     cout<<endl;
 
 vector<Student> my_vect;
