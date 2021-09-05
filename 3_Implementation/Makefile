@@ -47,7 +47,7 @@ test:
 	g++ $(TEST) $(SRC) -I $(INC_H) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lgtest -lgtest_main -lpthread
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-coverage:
+coverage:test
 	cp test/test.cc .
 	g++ -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T)   test/test.cc $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
