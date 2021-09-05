@@ -119,9 +119,9 @@ Student s3(uid2,uname_1,umodule_name1,ui_marks_m1,umodule_name2,ui_marks_m2,umod
 EXPECT_NE(60,s3.avg_sum());
 
 }
-int main()
+int main(int argc, char **argv)
 {
-    ::testing::InitGoogleTest(); 
+    testing::InitGoogleTest(); 
     return RUN_ALL_TESTS();
 }
 
